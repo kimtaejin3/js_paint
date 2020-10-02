@@ -108,6 +108,7 @@ if (reset) {
     ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
     filling = false;
     mode.innerText = "Fill";
+    ctx.strokeStyle = INITIAL_COLOR;
   });
 }
 
